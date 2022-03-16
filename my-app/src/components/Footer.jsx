@@ -1,16 +1,14 @@
 import React from "react";
 
-const date = new Date();
-const year = date.getFullYear();
 
-function appFooter(){
+function Footer(){
+    const date = new Date();
+    const year = date.getFullYear();
+
     return(
-        <footer>
-            <p>Copyright Devin Anderson {year}</p>
-
-            </footer>
+        <footer><p>Copyright CrimsonCoder42 { year }</p></footer>
 
     )
 }
 
-export default appFooter;
+export default Footer;

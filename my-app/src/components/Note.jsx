@@ -1,13 +1,12 @@
 import React from "react";
 
-function appNote(){
-    return(
-        <header>
-            <h1>Keeper App</h1>
-
-            </header>
-
-    )
+function Note() {
+    return (
+        <div class='note'>
+        <h1>This is the note title</h1>
+        <p>This is the note content</p>
+        </div>
+    );
 }
 
-export default appNote;
+export default Note;

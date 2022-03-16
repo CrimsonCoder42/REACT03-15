@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from "./components/App";
+// import Note from "./components/Note";
+// import Footer from "./components/Footer";
 
 ReactDOM.render(
-     <h1>Hello World!</h1>, 
+     <div>
+     <div><App /></div>
+     
+     </div>, 
      
      document.getElementById("root")
 )
